@@ -2,7 +2,7 @@
   "name": "拓麻歌子 Tamagotchi",
   "short_name": "拓麻歌子",
   "description": "经典拓麻歌子虚拟宠物游戏 - 喂养、玩耍、陪伴成长",
-  "start_url": "./tamagotchi.html",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#1a1a2e",

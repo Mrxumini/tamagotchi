@@ -1,6 +1,6 @@
 // Service Worker for Tamagotchi PWA
-const CACHE = 'tamagotchi-v1';
-const FILES = ['./tamagotchi.html'];
+const CACHE = 'tamagotchi-v2';
+const FILES = ['./', './index.html', './tamagotchi.html', './tamagotchi-manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).catch(() => {}));
